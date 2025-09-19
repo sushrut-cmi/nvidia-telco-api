@@ -3,8 +3,7 @@ window.onload = function() {
 
   // the following lines will be replaced by docker/configurator, when it runs in a docker-container
   window.ui = SwaggerUIBundle({
-    url: "https://sushrut.github.io/nvidia-telco-api/openapi-unresolved.json",
-   // 👈 point to your local spec file
+    url: "./openapi-unresolved.json",   // 👈 point to your local spec file
     dom_id: '#swagger-ui',
     deepLinking: true,
     presets: [
